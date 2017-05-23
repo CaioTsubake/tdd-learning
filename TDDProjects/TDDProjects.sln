@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26403.7
+VisualStudioVersion = 15.0.26430.6
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FibonacciProjectTests", "FibonacciProjectTests\FibonacciProjectTests.csproj", "{C6AD8912-370A-4864-9A61-21937EDF0DC0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FibonacciProject", "FibonacciProject\FibonacciProject.csproj", "{C41DEA1F-46D9-4F65-9A2B-0BE308D57124}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Fibonacci", "Fibonacci", "{61524071-D769-4F4A-B89C-5DE3209AAA06}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,5 +26,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C6AD8912-370A-4864-9A61-21937EDF0DC0} = {61524071-D769-4F4A-B89C-5DE3209AAA06}
+		{C41DEA1F-46D9-4F65-9A2B-0BE308D57124} = {61524071-D769-4F4A-B89C-5DE3209AAA06}
 	EndGlobalSection
 EndGlobal
