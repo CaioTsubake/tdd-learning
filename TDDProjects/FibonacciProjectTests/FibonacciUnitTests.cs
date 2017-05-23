@@ -10,21 +10,19 @@ namespace FibonacciProjectTests
         [TestMethod]
         public void Fib_Given0_Return0()
         {
-            int n = 0;
 
-            int result = Fibonacci.Fib(n);
+            //Act
+            int result = FibonacciSetup(0);
 
-            Assert.AreEqual(0, result);
+            //Assert
+            Assert.AreEqual(result, 0);
         }
 
         [TestMethod]
         public void Fib_Given1_Return1()
         {
-            //Assert
-            int n = 1;
-
             //Act
-            int result = Fibonacci.Fib(n);
+            int result = FibonacciSetup(1);
 
             //Assert
             Assert.AreEqual(result, 1);
@@ -33,11 +31,8 @@ namespace FibonacciProjectTests
         [TestMethod]
         public void Fib_Given2_Return1()
         {
-            //Assert
-            int n = 2;
-
             //Act
-            int result = Fibonacci.Fib(n);
+            int result = FibonacciSetup(2);
 
             //Assert
             Assert.AreEqual(result, 1);
@@ -46,11 +41,8 @@ namespace FibonacciProjectTests
         [TestMethod]
         public void Fib_Given3_Return2()
         {
-            //Assert
-            int n = 3;
-
             //Act
-            int result = Fibonacci.Fib(n);
+            int result = FibonacciSetup(3);
 
             //Assert
             Assert.AreEqual(result, 2);
@@ -59,14 +51,18 @@ namespace FibonacciProjectTests
         [TestMethod]
         public void Fib_Given4_Return3()
         {
-            //Assert
-            int n = 4;
-
             //Act
-            int result = Fibonacci.Fib(n);
+            int result = FibonacciSetup(4);
 
             //Assert
             Assert.AreEqual(result, 3);
+        }
+
+        public int FibonacciSetup(int n)
+        {
+            int result = Fibonacci.Fib(n);
+
+            return result;
         }
     }
 }
