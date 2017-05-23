@@ -9,6 +9,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FibonacciProject", "Fibonac
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Fibonacci", "Fibonacci", "{61524071-D769-4F4A-B89C-5DE3209AAA06}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BowlingKata", "BowlingKata", "{C4304F59-DD6D-4A3B-B464-2EA9F95A0C2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BowlingKataProject", "BowlingKataProject\BowlingKataProject.csproj", "{8BE30C3B-EE65-4430-B0E0-6612FAEAB045}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BowlingKataProjectTests", "BowlingKataProjectTests\BowlingKataProjectTests.csproj", "{A8AAACAE-566F-4847-B86E-37D23387C93C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +29,14 @@ Global
 		{C41DEA1F-46D9-4F65-9A2B-0BE308D57124}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C41DEA1F-46D9-4F65-9A2B-0BE308D57124}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C41DEA1F-46D9-4F65-9A2B-0BE308D57124}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BE30C3B-EE65-4430-B0E0-6612FAEAB045}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BE30C3B-EE65-4430-B0E0-6612FAEAB045}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BE30C3B-EE65-4430-B0E0-6612FAEAB045}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BE30C3B-EE65-4430-B0E0-6612FAEAB045}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8AAACAE-566F-4847-B86E-37D23387C93C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8AAACAE-566F-4847-B86E-37D23387C93C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8AAACAE-566F-4847-B86E-37D23387C93C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8AAACAE-566F-4847-B86E-37D23387C93C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,5 +44,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{C6AD8912-370A-4864-9A61-21937EDF0DC0} = {61524071-D769-4F4A-B89C-5DE3209AAA06}
 		{C41DEA1F-46D9-4F65-9A2B-0BE308D57124} = {61524071-D769-4F4A-B89C-5DE3209AAA06}
+		{8BE30C3B-EE65-4430-B0E0-6612FAEAB045} = {C4304F59-DD6D-4A3B-B464-2EA9F95A0C2D}
+		{A8AAACAE-566F-4847-B86E-37D23387C93C} = {C4304F59-DD6D-4A3B-B464-2EA9F95A0C2D}
 	EndGlobalSection
 EndGlobal
